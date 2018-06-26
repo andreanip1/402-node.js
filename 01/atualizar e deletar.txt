@@ -1,0 +1,24 @@
+/*
+CROSS 
+Cross origin resource sharing 
+Permição de acesso a dominínios
+
+    npm install cors 
+    const cors = require('cors');
+    app.use(cors());
+
+domínio:  nome amigável para o servidor
+middleware:
+APIs Rest
+
+
+Atualizar
+    updateOne: atualizar informações da api 
+    app.put('/churro/id, (req, res) => {
+        let query = {
+            _id:ObjectID(req.params.id)
+        };
+    })
+
+Deletar
+
